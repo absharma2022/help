@@ -1,0 +1,4 @@
+ocate filename # will locate file
+grep "word" * .f90 ## will show line which contain that word in files with extention .90 
+touch file_name # to generate blank files
+mv old_filename new_filename ## in linux renaming a file name it works like moving a old file to new file

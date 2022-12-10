@@ -1,0 +1,109 @@
+In this text file I have mentioned the steps along with the links to download to install the ifort compiler and intel mpi libraries
+These libraries comes with two packages first one is Intel Oneapi Base Toolkit (Develop performant, data-centric applications across Intel® CPUs, GPUs, and FPGAs with this foundational toolset) and second is Intel oneAPI HPC Toolkit (Build, analyze, and scale applications across shared- and distributed-memory computing systems). First tool is required to install and run the second tool, we can not use second tool without the first one. 
+There is step by step guidelines to install both the tools: 
+
+------------------------------------------------------------------------------------------------------------
+Get and install the Intel® oneAPI Base Toolkit:
+
+Open the following link in your browser :
+
+https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html
+
+after the choose your operating system and select the option to download(I selected online, you can choose according your prefernece)
+After doing his you will get two options either download package or use terminal command line, for terminal commnd line I got following link(you may get different as depends on upgradation)
+
+Run these commands in sequence
+
+wget https://registrationcenter-download.intel.com/akdlm/irc_nas/18970/l_BaseKit_p_2022.3.1.17310.sh
+
+sudo sh ./l_BaseKit_p_2022.3.1.17310.sh   ###### This will launch the GUI Installer as the root you can customise your pacakges according to your need.
+
+Follow the instructions in the installer.
+Now we need to Configure our CPU or GPU System for this follow:
+ 
+sudo apt update
+
+sudo apt -y install cmake pkg-config build-essential
+
+We can also verify the installation by displaying the installation location with this command: 
+
+which cmake 
+
+Now main things come to Set Environment Variables for CLI(Command Line Interface) Development
+There are two ways for this:
+ 
+Option 1: Source setvars.sh once per session (with every time opening the terminal): Source setvars.sh every time you open a new terminal window: 
+
+. /opt/intel/oneapi/setvars.sh
+
+Option 2: One time setup for setvars.sh : Environment variables can be set up to automatically set using one of the methods below: 
+
+sudo gedit /etc/bash.bashrc ## To open source file as a root
+
+source /opt/intel/oneapi/setvars.sh intel64  ## add this command at the end of file and then save it and close it.
+
+
+source /etc/bash.bashrc  ## Doing source changes made to source file(bash.bashrc)
+  
+----------------------------------------------------------------------------------------------------------
+
+Get and install the Intel® oneAPI HPC Toolkit:
+
+Open the following link in your browser :
+
+https://www.intel.com/content/www/us/en/developer/tools/oneapi/hpc-toolkit-download.html
+
+after the choose your operating system and select the option to download(I selected online, you can choose according your prefernece)
+After doing his you will get two options either download package or use terminal command line, for terminal commnd line I got following link(you may get different as depends on upgradation)
+Run these commands in sequence
+
+wget https://registrationcenter-download.intel.com/akdlm/irc_nas/18975/l_HPCKit_p_2022.3.1.16997.sh
+
+sudo sh ./l_HPCKit_p_2022.3.1.16997.sh  #####  This will launch the GUI Installer as the root you can customise your pacakges according to your need.
+
+Now we again need to Configure our CPU or GPU System for this follow:
+
+sudo apt update
+sudo apt -y install cmake pkg-config build-essential
+
+Verify the installation by displaying the installation location with this command: 
+
+which cmake
+
+Set Environment Variables for CLI(Command Line Interface) Development: Set up your CLI environment by sourcing the setvars script
+
+There are two ways for this:
+
+Option 1: Source setvars.sh once per session (with every time opening the terminal): Source setvars.sh every time you open a new terminal window: 
+
+. /opt/intel/oneapi/setvars.sh
+
+Option 2: One time setup for setvars.sh : Environment variables can be set up to automatically set using one of the methods below: 
+
+sudo gedit /etc/bash.bashrc ## To open source file as a root
+
+source /opt/intel/oneapi/setvars.sh intel64  ## add this command at the end of file and then save it and close it.
+
+
+source /etc/bash.bashrc  ## Doing source changes made to source file(bash.bashrc)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+One may use conda commands if he/she has conda environment in his/her mahine
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+You may visit Intel® oneAPI Toolkits for more exploration: https://www.intel.com/content/www/us/en/developer/tools/oneapi/toolkits.html#gs.kupwt1
+ 
+Intel® oneAPI Toolkits Build, analyze, and optimize high-performance, cross-architecture applications on CPUs and XPUs with best-in-class compilers, performance libraries, frameworks, and analysis and debug tools.
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
