@@ -1,0 +1,50 @@
+lsb_release -a  # to chek version of ubuntu
+
+sudo apt update
+   
+env | grep "http" # to set environement proxy
+
+env | grep "http*" # to set environement proxy
+
+sudo nano /etc/apt/apt.conf.d/ # to change environemnt file
+sudo nano /etc/apt/apt.conf/
+sudo nano /etc/environment
+sudo nano /etc/bash.bashrc 
+
+wget -O- http://neuro.debian.net/lists/focal.jp.full | sudo tee /etc/apt/sources.list.d/neurodebian.sources.list   # link to get singularity installation
+
+sudo apt-key adv --recv-keys --keyserver hkps://keyserver.ubuntu.com 0xA5D32F012649A5A9
+sudo apt-get update  # Should update after running above two commands
+
+sudo apt-get install singularity-container ## To install Singularity
+
+singularity --version   ## to chek singularity version
+
+sudo sigularity build  ubuntu.sif docker://ubuntu   ## To Download latest version of ubuntu in image form from docker 
+sudo singularity build  ubuntu.sif docker://ubuntu   ## same command 
+
+sudo singularity build --sandbox python/ ubuntu.sif  ##To create python direcotry in that image ubuntu 
+
+exit ## To comeout from singularity shell
+
+singularity shell ubuntu.sif  ### To enter into signluarity shell
+
+sudo singularity shell --writable python/   ## To create writable python from outside to singularity shell 
+
+############ Enter into singularity shell(Inside ubuntu.sif)  ##############
+
+singularity shell ubuntu.sif      # To enter into ubunto.sif
+apt-get install python2  #sudo doesn't work inside singularity shell
+
+
+################ Outside the singularity shell ##########
+
+sudo singularity build ubun_python.sif python/   # To build new image which contain python version 2
+
+singularity shell ubun_python.sif  ## To enter into ubun_python.sif image
+
+ scp ubun_python.sif d22027@10.8.1.19:~  # To copy into hpc home directory 
+
+
+###############
+cat /etc/os-release  # to chek version of os

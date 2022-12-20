@@ -2,3 +2,9 @@ ocate filename # will locate file
 grep "word" * .f90 ## will show line which contain that word in files with extention .90 
 touch file_name # to generate blank files
 mv old_filename new_filename ## in linux renaming a file name it works like moving a old file to new file
+
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'   ## Enable Minimize on Dock Click
+
+13Dec2022:
+           alias alias_name='sshpass -p 'password' ssh -X username@10.8.1.19' # to set alias for cluster login
+           Please write this alias in source file(.bashrc) and source 
