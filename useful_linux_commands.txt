@@ -8,3 +8,10 @@ gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'   
 13Dec2022:
            alias alias_name='sshpass -p 'password' ssh -X username@10.8.1.19' # to set alias for cluster login
            Please write this alias in source file(.bashrc) and source 
+           
+           
+20 Dec 2022:
+		cat /etc/os-release  # to chek version of os
+		top  # to cehek running status of cpu
+		ctrl+h ## To make changes in same word more than one places in the file
+		mkdir -p ## To make directory forcefully This does not chage files if directory already exists
