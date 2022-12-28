@@ -1,17 +1,55 @@
-ocate filename # will locate file
+locate filename # will locate file
+
 grep "word" * .f90 ## will show line which contain that word in files with extention .90 
+
 touch file_name # to generate blank files
+
 mv old_filename new_filename ## in linux renaming a file name it works like moving a old file to new file
 
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'   ## Enable Minimize on Dock Click
 
 13Dec2022:
            alias alias_name='sshpass -p 'password' ssh -X username@10.8.1.19' # to set alias for cluster login
+           
            Please write this alias in source file(.bashrc) and source 
+           
+           scp -r hello.f90 mpi.f90 d22027@10.8.1.19:/home/d22027/wd/testmpi   ### To copy a file from local machine to cluster folder
+
            
            
 20 Dec 2022:
 		cat /etc/os-release  # to chek version of os
+		
 		top  # to cehek running status of cpu
+		
 		ctrl+h ## To make changes in same word more than one places in the file
+		
 		mkdir -p ## To make directory forcefully This does not chage files if directory already exists
+		
+		lscpu  ## To list cpu configuration on terminal
+		
+24th Dec 2022:
+ 		## To render movie from vmd need to installl these packages:
+ 		
+			sudo apt install imagemagick
+		
+			sudo apt install ffmpeg
+			
+ 			sudo apt install mencoder
+
+		
+		ffmpeg -i untitled.mpg output.mp4  ## To convert mpg to mp4
+		
+		
+To be have a look: synaptic package manager
+
+26th Dec:
+		gsettings set org.gnome.shell.extensions.desktop-icons show-trash false  ## To remove by deafulat icon from desktop
+		
+		gsettings set org.gnome.shell.extensions.desktop-icons show-home false  ## To remove home icon from desktop
+		
+		gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false ## To dock height to be limited
+		
+		 gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 40 ## Tofix number icons on dock
+		
+

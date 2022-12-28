@@ -1,24 +1,57 @@
 Following git commands may be useful for any user
 
 git init ## To make directory a git repository
+
 rm -rf .git ## To remove that git repository
+
 git status ## To chekout status of git repository
+
 git add --a ## To add all files of a working git repository to staging area
+
 git add file_name ## to add to staging area that file
+
 git commit -m "commit messages"
+
 git log ## list out commites with details like who, when did and what was the messages
+
 git diff ## To compare working directory to staging area
+
 git diff --staged ## to compare last commit and staging area
 
 *******************************************************************************************
-.gitignore is a flie in git repository to ignore for commiting and pushing everytime whenever we commit or push. 
+.gitignore is a flie in git repository to ignore for commiting and pushing everytime whenever we commit or push
+
 Just menntion that file or folder in that .gitignore file which you dont want to use for committing and pushing 
+
 If you want to ignore the file with same extension then just mention *.file_extension in .gitignore file
+
+-------------------------------------------------------------------------------------------------------------
+git remote add "name to url" github_repo_url_link
+
 git branch ## To see on which branch we are working
+
 git branch -r ## to list number of branches at remote(github)
+
 git branch -a ## to list all branches(on local machine and remote)
+
 git checkout branch_name ## To change the branch
+
 git checkout -b branch_name ## Will make a new branch and will switch at the same time
+
 git checkout master ## to switch to master branch
 
 git clone url_link or ssh_link ## To pull or clone the git repository into local machine from remote
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+git ssh key generation:
+			1. ssh-keygen -t rsa -b 4096 -C "d22027@students.iitmandi.ac.in"  ## To generate ssh key with email adress and using rsa
+			or
+			ssh-keygen -t ed25519 -C "your_email@example.com" ### To generate ssh key  legacy systems that support the Ed25519 
+
+			2. 
+
+
+
+
+
