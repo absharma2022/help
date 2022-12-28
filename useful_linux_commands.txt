@@ -42,6 +42,7 @@ gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'   
 		
 		
 To be have a look: synaptic package manager
+<<<<<<< HEAD
 
 26th Dec:
 		gsettings set org.gnome.shell.extensions.desktop-icons show-trash false  ## To remove by deafulat icon from desktop
@@ -53,3 +54,20 @@ To be have a look: synaptic package manager
 		 gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 40 ## Tofix number icons on dock
 		
 
+=======
+		
+
+27th Dec 20222:
+	
+		To set proxy in for sudo apt-get through terminal
+		make a file with name proxy.conf write following commands in file:
+				
+				Acquire::http::Proxy "http://10.8.0.1:8080";
+				Acquire::https::Proxy "http://10.8.0.1:8080";
+				
+		and save this file at following path using sudo :
+		
+			sudo cp proxy.conf /etc/apt/apt.conf.d/ 
+			
+		
+>>>>>>> 061f82679040aeb33313c3d5a23086dfa7a58105

@@ -1,4 +1,18 @@
-Following git commands may be useful for any user
+
+
+####   Following git commands may be useful for any user:
+
+git config --global user.name "User_name" ## To set user as global
+
+git config --global user.email "user_email" ## To set user email as a global
+
+git config --list ## To list the user info
+
+
+
+
+
+
 
 git init ## To make directory a git repository
 
@@ -18,7 +32,11 @@ git diff ## To compare working directory to staging area
 
 git diff --staged ## to compare last commit and staging area
 
+<<<<<<< HEAD
 *******************************************************************************************
+=======
+**************************************************************************************************************
+>>>>>>> 061f82679040aeb33313c3d5a23086dfa7a58105
 .gitignore is a flie in git repository to ignore for commiting and pushing everytime whenever we commit or push
 
 Just menntion that file or folder in that .gitignore file which you dont want to use for committing and pushing 
