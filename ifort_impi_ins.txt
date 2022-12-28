@@ -1,4 +1,4 @@
-In this text file I have mentioned the steps along with the links to download to install the ifort compiler and intel mpi libraries
+In this text file I have mentioned the steps along with the links to download and install the ifort compiler and intel mpi libraries
 These libraries comes with two packages first one is Intel Oneapi Base Toolkit (Develop performant, data-centric applications across Intel® CPUs, GPUs, and FPGAs with this foundational toolset) and second is Intel oneAPI HPC Toolkit (Build, analyze, and scale applications across shared- and distributed-memory computing systems). First tool is required to install and run the second tool, we can not use second tool without the first one. 
 There is step by step guidelines to install both the tools: 
 
