@@ -69,5 +69,19 @@ To be have a look: synaptic package manager
 		
 			sudo cp proxy.conf /etc/apt/apt.conf.d/ 
 			
+04th Jan 2023:
+		Param Himalaya uploading commands
+		
+		scp -P 4422 -r mainupload.zip abhisharma.sps.iitmandi@paramhimalaya.iitmandi.ac.in:/home/abhisharma.sps.iitmandi/projectwork/project01
+  		## I have uploaded mainupload.zip file from main directory to param himalya cloud
+  		
+  		scp –r -P 4422 /dir/dir/file username@<cluster IP/Name>:/home/username
+  		## Copy from param himalaya to local machine
+  		
+  		
+  		
+  		
+  		
+			
 		
 >>>>>>> 061f82679040aeb33313c3d5a23086dfa7a58105
