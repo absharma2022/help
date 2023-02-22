@@ -73,10 +73,14 @@ To be have a look: synaptic package manager
 		Param Himalaya uploading commands
 		
 		scp -P 4422 -r mainupload.zip abhisharma.sps.iitmandi@paramhimalaya.iitmandi.ac.in:/home/abhisharma.sps.iitmandi/projectwork/project01
-  		## I have uploaded mainupload.zip file from main directory to param himalya cloud
+  		## I have uploaded mainupload.zip file from main directory to param 			
+  		himalya cloud to local machine
+  		 scp -P 4422 -r abhisharma.sps.iitmandi@paramhimalaya.iitmandi.ac.in:/home/abhisharma.sps.iitmandi/projectwork/project01/allorder/onepolarparticle/noise/noise_0/UnifiedCode16a/init/ /home/absharma/abhi/research/research_02
+
+
   		
-  		scp –r -P 4422 /dir/dir/file username@<cluster IP/Name>:/home/username
-  		## Copy from param himalaya to local machine
+  		
+  		
   		
   		
 04th Feb 2023:
@@ -86,6 +90,21 @@ To be have a look: synaptic package manager
  			sudo apt upgrade
 			sudo apt install virtualbox
 			sudo apt install virtualbox-e
+			
+08th Feb 2023:
+		Basic linux commands
+			ctr+z #suspend the running program process
+			ctrl+c #kill the process
+			df -h  # all disk space
+			du # all the size of directory
+			du -h # size in the directory
+			
+15th Feb 2023:
+		gcc comamand
+		while using maths inbuilt function from math.h use -lm at last while 			compiling
+
+
+			
 			
 			
 

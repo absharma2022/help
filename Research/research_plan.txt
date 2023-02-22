@@ -1,0 +1,40 @@
+
+
+17/02/2023:
+ 
+ 	resaerch plan for the PhD
+ 	
+ 	We are planning to work on three parallel project for the PhD research work
+ 	
+ 	
+ 1. One Polar rod in Apolar medium:
+	
+	1a. Area fraction of medium can be changed while keeping noise paramter 0:
+	
+		In this case system can be initiated in two states:
+		
+			1a.1. All particles in ordered state 
+			
+			1a.2. All particles disordered (randomly)
+			
+ Note: It is observed that for case 1a.2 at high area fraction there are defects in the system(This can be possible choice to study the defects dynamics) 
+Reason for the defects:
+How to overcome from the defects: case 1a.1 can be used or length of particles can be increased
+
+
+2. Two Polar rods in apolar (or can be spherical beads) medium:
+
+	2a. Distance between these two polar particles will be changed and interaction of these 		    particles will be studies for a short period of time so for this we need to give 		    too many runs for small time(around 1-2hrs) with different values of distances 		    between particles.
+	
+	2b. AT high area fraction to generate the initial configuration of particles we need to 		    keep initial gap width of lid and base is large and then after generating 	    configuration of all particles we settle down the initial high gap width to 		    required gap width. 
+	    So While settling the lid at required position we can restricted the motion of 		    polar particles in XY plane by not updating velocity in x and y directions till a 		    particular direction meanwhile we will update the velocity and position in z 		    direction.
+
+
+3. Array of motile rods in bead medium:
+
+
+4. Collective dynamics of particles 
+	
+	
+	
+	
