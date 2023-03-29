@@ -1,3 +1,9 @@
+#####git manual
+git config --help
+or
+git config -h 
+or
+git help
 
 
 ####   Following git commands may be useful for any user:
@@ -6,13 +12,31 @@ git config --global user.name "User_name" ## To set user as global
 
 git config --global user.email "user_email" ## To set user email as a global
 
+git config --global init.defaultBranch main   ##Git (2.28+) allows configuration of the name of the 					branch created when you initialize any new repository.
+
 git config --list ## To list the user info
 
 
+### to setup proxy
+
+git config --global http.proxy proxy-url
+git config --global https.proxy proxy-url
+
+### to disable proxy
+
+$ git config --global --unset http.proxy
+$ git config --global --unset https.proxy
 
 
-
-
+----------------------------------------------------------------------------------------------------
+|
+|
+| Notes: You can refer to the most recent commit of the working directory by using the identifier
+|        HEAD (Here all in capital letters)
+|
+|
+|
+|----------------------------------------------------------------------------------------------------
 
 git init ## To make directory a git repository
 
@@ -26,11 +50,26 @@ git add file_name ## to add to staging area that file
 
 git commit -m "commit messages"
 
+git log -N # N is number of commits you want to see on screen
+
 git log ## list out commites with details like who, when did and what was the messages
 
-git diff ## To compare working directory to staging area
+
+git diff HEAD <file name> #this compare your last commit with current changes in the file
+		as we call last commit to HEAD
+
+git diff ## To compare working directory and stagged file 
 
 git diff --staged ## to compare last commit and staging area
+
+
+################# GOing Back to hisotry versions ######
+
+git checkout <commit identifier> <file name>   ##to go that particular version
+
+git checkout HEAD <file name>                  ## to go last version
+
+
 
 <<<<<<< HEAD
 *******************************************************************************************
@@ -60,7 +99,8 @@ git checkout master ## to switch to master branch
 
 git clone url_link or ssh_link ## To pull or clone the git repository into local machine from remote
 
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,$ git config --global --unset http.proxy
+$ git config --global --unset https.proxy,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
 git ssh key generation:
 			1. ssh-keygen -t rsa -b 4096 -C "d22027@students.iitmandi.ac.in"  ## To generate ssh key with email adress and using rsa
@@ -69,6 +109,8 @@ git ssh key generation:
 
 			2. 
 
+
+Working with remote
 
 
 

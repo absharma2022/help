@@ -103,6 +103,10 @@ To be have a look: synaptic package manager
 		gcc comamand
 		while using maths inbuilt function from math.h use -lm at last while 			compiling
 
+20th March 2023: 	
+		Gnuplot command to save png images:
+			
+gnuplot -e "set terminal png size 400,300; set output 'xyz.png'; plot 'odpm_1no1.dat' 1:2"
 
 			
 			
