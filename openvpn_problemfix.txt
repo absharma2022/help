@@ -1,0 +1,29 @@
+
+In this text file steps to fix openvp fatal error problem while connecting HPC
+ 
+ Go to cd /etc/openvpn/
+ 
+ 
+Step 1 .
+--------- : Add remote-cert-tls in clint.conf file to fix first warning using sudo
+
+Step 2
+-------- : To run openvp use following command with sudo
+
+		sudo openvpn --config /etc/openvpn/client.conf
+		
+Step 3
+-------- : To stop openvpn service
+	
+		sudo service openvpn stop
+		
+Step 4 
+--------- : To kill all previous running openvpn after using 
+	
+		sudo killall openvpn
+		
+		
+		Plese use pdf file of IIT Mandi's openvpn
+		
+		
+

@@ -43,8 +43,7 @@ sudo singularity build ubun_python.sif python/   # To build new image which cont
 
 singularity shell ubun_python.sif  ## To enter into ubun_python.sif image
 
- scp ubun_python.sif d22027@10.8.1.19:~  # To copy into hpc home directory 
-
+scp ubun_python.sif d22027@10.8.1.19:~  # To copy into hpc home directory 
 
 ###############
 cat /etc/os-release  # to chek version of os
