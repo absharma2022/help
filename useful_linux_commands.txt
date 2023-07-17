@@ -108,6 +108,35 @@ To be have a look: synaptic package manager
 			
 gnuplot -e "set terminal png size 400,300; set output 'xyz.png'; plot 'odpm_1no1.dat' 1:2"
 
+
+17th July 2023:
+		Making movie from images using ffmpeg
+		
+		ffmpeg -framerate 25 -i image-%05d.jpg -c:v libx264 -profile:v high -crf 20 -pix_fmt yuv420p output.mp4
+		
+		here :
+			ffmpeg is the package
+			
+			-framerate - is number of frames per second
+			
+			-i image-%05d.jpg - determines the file name sequence it 				looks for. 				
+			image- means all of the files start with this. The d 				indicates decimal integers, 5 is number of digits, the 				leading zero indicates that numbers requiring fewer digits 				will be filled, in the left, with zeroes so that every 				number contains exactly 5 digits. Thus the files it will 				detect are everything from image-00000 to image-99999.
+			
+			-c:v libx264 - the video codec is libx264 (H.264).
+			
+			-profile:v high - use H.264 High Profile (advanced features, 				better quality).
+			
+			-crf 20 - constant quality mode, very high quality (lower 				numbers are higher quality, 18 is the smallest you would 				want to use).
+			
+			-pix_fmt yuv420p - use YUV pixel format and 4:2:0
+			
+			output.mp4 - Output file name
+			
+	Note: = Remember that ffmpeg needs a continuous sequence of images to load in. If it 		        jumps from image-00001 to image-00003 it will stop.
+			
+			
+			
+
 			
 			
 			
