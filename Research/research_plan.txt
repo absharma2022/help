@@ -13,27 +13,40 @@
 	
 		In this case system can be initiated in two states:
 		
-			1a.1. All particles in ordered state 
+			1a.1. All particles in ordered state
+				( Properities like order parameter, spatial 	 				correlarions and time corrections(auto 				correlation) of orientation of apolar 					particles, Phase diagaram, number flucaution,  ) 
 			
 			1a.2. All particles disordered (randomly)
 			
- Note: It is observed that for case 1a.2 at high area fraction there are defects in the system(This can be possible choice to study the defects dynamics) 
-Reason for the defects:
-How to overcome from the defects: case 1a.1 can be used or length of particles can be increased
+ Note: It is observed that for case 1a.2 at high area fraction there are defects in the system(This 	   can be possible choice to studying the type, density, and dynamics of these defects can      	   reveal important information about the system's behavior. 
+ 
+ Primary ref. for defects study Pul M. Chaikin, Tom C.  Lubensky Principles of Condensed Matter Physics 1995, chapter 9 ) 
+ 
+**** ( Reason for the defects:
+How to overcome from the defects: case 1a.1 can be used or length of particles can be increased ) ***
+
+*******************************************************************************************************
+********************************************************************************************************
+
+2. Study of Motile rod in nematic medium:
+			( Properities: Time auto correlation function of single 					  partilce, Mean square displacement(MSD) of low 					  profile (veloctiy of medium particles around 					  the single particle), ordering profile (order 					  of medium particles around motile rods)  )
+			
+			2.a. Noise Vs alignment of motile rod along nematic particles
 
 
-2. Two Polar rods in apolar (or can be spherical beads) medium:
+
+3. Two Polar rods in apolar (or can be spherical beads) medium:
 
 	2a. Distance between these two polar particles will be changed and interaction of these 		    particles will be studies for a short period of time so for this we need to give 		    too many runs for small time(around 1-2hrs) with different values of distances 		    between particles.
-	
-	2b. AT high area fraction to generate the initial configuration of particles we need to 		    keep initial gap width of lid and base is large and then after generating 	    configuration of all particles we settle down the initial high gap width to 		    required gap width. 
-	    So While settling the lid at required position we can restricted the motion of 		    polar particles in XY plane by not updating velocity in x and y directions till a 		    particular direction meanwhile we will update the velocity and position in z 		    direction.
+	( Simulation hint: AT high area fraction to generate the initial configuration of 			      particles we need to  keep initial gap width of lid and base is 			      large and then after generating configuration of all particles we 			      settle down the initial high gap width to required gap width So 			      While settling the lid at required position we can restricted the 			      motion of polar particles in XY plane by not updating velocity in x 			      and y directions till a particular direction meanwhile we will 			      update the velocity and position in z direction.
 
 
-3. Array of motile rods in bead medium:
 
 
-4. Collective dynamics of particles 
+4. Array of motile rods in bead medium:
+
+
+5. Collective dynamics of particles 
 	
 	
 	

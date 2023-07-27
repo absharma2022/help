@@ -1,0 +1,10 @@
+###################################################
+
+Ideias parallel to the main research
+
+
+#################################################
+
+	1.	For main research I did all nematic system study by generating intial state 			as order and then allow to evolve with time (simulation) now I can check 			from initially from disordered to ordered.
+
+	2.	In nematic system I can do the dynamics of chiral partile (Ref. Pul M. 			Chaikin, Tom C. Lubensky Principles of Condensed Matter Physics 1995, 			Chapter 2, 2.7 liquid crystals, page 60 )
