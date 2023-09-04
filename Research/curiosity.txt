@@ -5,6 +5,26 @@ Ideias parallel to the main research
 
 #################################################
 
+27/07/2023:
+
 	1.	For main research I did all nematic system study by generating intial state 			as order and then allow to evolve with time (simulation) now I can check 			from initially from disordered to ordered.
 
 	2.	In nematic system I can do the dynamics of chiral partile (Ref. Pul M. 			Chaikin, Tom C. Lubensky Principles of Condensed Matter Physics 1995, 			Chapter 2, 2.7 liquid crystals, page 60 )
+	
+	3.	Can try to plot order paramter Vs area fraction of particles
+	
+Can read the following: 
+
+Rheological Properties: The flow behavior of granular nematics is important for practical applications. Understanding how the orientational order affects the material's response to external forces is relevant for industrial processes and material design.
+
+(Can study velocity of a particluar particle (let say has id i ) and its orientation with the time then can observe velocity and orientation. Similar thing can be done with other particle and at last main velocity of COM and direction of dricetor(in which ))
+
+
+Emergent Collective Behavior: The collective behavior of granular nematics can lead to emergent phenomena such as flocking, swirling, and other dynamic patterns. Understanding these emergent behaviors can shed light on the principles of self-organization in active matter.
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+############################################################################################################
+
+Here I am wrtiting whatever I learn on daily basis about new things, to solve some problems regarding technology or life related knowledge during research. Here I also write about research related things.
+
+
+########################################################################################################
+
+Date: 28th July 2023:
+	
+	1. I resoved the pages app google drive problem of ipad (by turinning off the privacy 		screen in google drive settings)
+	
+	2. 

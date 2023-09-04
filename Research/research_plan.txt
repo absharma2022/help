@@ -14,7 +14,7 @@
 		In this case system can be initiated in two states:
 		
 			1a.1. All particles in ordered state
-				( Properities like order parameter, spatial 	 				correlarions and time corrections(auto 				correlation) of orientation of apolar 					particles, Phase diagaram, number flucaution,  ) 
+				( Properities like order parameter, spatial 	 				correlarions and time corrections(auto 				correlation) of orientation of apolar 					particles, Phase diagaram, number 					flucaution, velocity velocity autocorrelation, 					rotational diffusivity ( orientation msd or msd 					of orientation), alignment parameter ) 
 			
 			1a.2. All particles disordered (randomly)
 			
@@ -25,11 +25,15 @@
 **** ( Reason for the defects:
 How to overcome from the defects: case 1a.1 can be used or length of particles can be increased ) ***
 
+
+
+
 *******************************************************************************************************
 ********************************************************************************************************
 
 2. Study of Motile rod in nematic medium:
-			( Properities: Time auto correlation function of single 					  partilce, Mean square displacement(MSD) of low 					  profile (veloctiy of medium particles around 					  the single particle), ordering profile (order 					  of medium particles around motile rods)  )
+												( Properities: 
+																		Time auto correlation function of single partilce, Mean square displacement(MSD) of low profile (veloctiy of medium particles around the single particle), ordering profile (order of medium particles around motile rods))
 			
 			2.a. Noise Vs alignment of motile rod along nematic particles
 
