@@ -78,10 +78,7 @@ To be have a look: synaptic package manager
   		 scp -P 4422 -r abhisharma.sps.iitmandi@paramhimalaya.iitmandi.ac.in:/home/abhisharma.sps.iitmandi/projectwork/project01/allorder/onepolarparticle/noise/noise_0/UnifiedCode16a/init/ /home/absharma/abhi/research/research_02
 
 
-  		
-  		
-  		
-  		
+  	
   		
 04th Feb 2023:
   		To install virtual machine
@@ -101,7 +98,7 @@ To be have a look: synaptic package manager
 			
 15th Feb 2023:
 		gcc comamand
-		while using maths inbuilt function from math.h use -lm at last while 			compiling
+		while using maths inbuilt function from math.h use -lm at last while compiling
 
 20th March 2023: 	
 		Gnuplot command to save png images:

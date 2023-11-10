@@ -1,0 +1,46 @@
+
+###########
+### This file contains the steps to use how to connect to any computer remotely using SSH ###
+
+please note that to connect to any computer remotely there should be installed a package named openssh-server use ssh sever 
+In linux it is installed by default
+
+use the following steps:
+
+---------------
+01. apt list openssh-server  ### To find the package is intsalled or not
+02. sudo apt install openshh-server ### To install
+03. sudo apt upgrade openssh-server ### To upgrade
+--------------
+
+01. service ssh start  ## To start server
+
+02. service ssh status ## To chekc is ssh sever is running or not 
+								## Bydefault port to run ssh server is port number 22
+
+----------------
+
+Note :: Location of ssh client system-wide configuration file is /etc/ssh/ and file is ssh_config
+
+---------------
+
+To find ip adrress use the following commands: 
+	01. ifconfig ## ip address mentioned in eth is main communicating ip a
+	02. ip --brief addr show ##
+---------------
+
+To connect to remotely 
+
+01. ssh username@ip_address 
+then enter password of remote machine
+
+	
+	
+	
+	 
+
+
+
+
+
+
