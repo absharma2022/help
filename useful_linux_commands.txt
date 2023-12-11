@@ -131,10 +131,14 @@ gnuplot -e "set terminal png size 400,300; set output 'xyz.png'; plot 'odpm_1no1
 			
 	Note: = Remember that ffmpeg needs a continuous sequence of images to load in. If it 		        jumps from image-00001 to image-00003 it will stop.
 			
-			
-			
 
-			
+11th Dec 2023: 	
+		To increase the quality of image rendering in vmd
+
+		In order to create high quality figures with VMD, go to: File > Render and use the Tachyon module in the File Render Controls panel.
+		Also, in order to increase the resolution of the figure, go to Render Command, in the same panel, and add the flag: -res xxx yyy, defining the number of pixels of the image.
+		Example:
+			"/usr/local/lib/vmd/tachyon_LINUXAMD64" -aasamples 12 %s -format TARGA -res 1600 1200 -o %s.tga
 			
 			
 
