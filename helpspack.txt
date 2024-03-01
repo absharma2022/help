@@ -1,0 +1,28 @@
+
+
+ git clone https://github.com/spack/spack.git
+
+ cd spack/
+
+ export  SPACK_PYTHON=/home/apps/DL/DL-CondaPy3.7/bin/python3
+
+ source share/spack/setup-env.sh
+
+ spack debug report
+
+ spack list | grep "gnuplot"
+
+spack info gnuplot
+
+
+### For VMD usuage
+
+spack find vmd
+
+export LD_PRELOAD=/home/apps/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-12.2.0-mnlqonbmchswk36c5royrfhfaacumu3d/lib64/libstdc++.so
+
+spcak load gcc@12.2.0
+
+spack load vmd /7rvqizq
+
+ spack load ffmpeg /h7gany4
