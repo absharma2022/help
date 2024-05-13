@@ -141,9 +141,10 @@ gnuplot -e "set terminal png size 400,300; set output 'xyz.png'; plot 'odpm_1no1
 			"/usr/local/lib/vmd/tachyon_LINUXAMD64" -aasamples 12 %s -format TARGA -res 1600 1200 -o %s.tga
 			
 			
-
-
-  		
+13 May 2024:
+		 gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.5 -dNOPAUSE -dQUIET -dBATCH -dPrinted=false -sOutputFile=foo-compressed.pdf g2prepara_heat.pdf
+			-dPrinted=false to preserve Hyperlinks
+  			-dCompatibilityLevel from 1.4 to 1.5 as pdflatex outputs PDF 1.5 by default since 2010
   		
   		
   		
