@@ -147,8 +147,10 @@ gnuplot -e "set terminal png size 400,300; set output 'xyz.png'; plot 'odpm_1no1
   			-dCompatibilityLevel from 1.4 to 1.5 as pdflatex outputs PDF 1.5 by default since 2010
   		
   		
-  		
-  		
+ 29th May 2024:
+		To copy a particular directory excluding a subdirectory from that directory
+			rsync -av --progress sourcefolder /destinationfolder --exclude thefoldertoexclude
+  			Note: that the dir thefoldertoexclude after --exclude option is relative to the sourcefolder, i.e., sourcefolder/thefoldertoexclude
 			
 		
 >>>>>>> 061f82679040aeb33313c3d5a23086dfa7a58105
