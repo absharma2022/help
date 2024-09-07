@@ -150,7 +150,31 @@ gnuplot -e "set terminal png size 400,300; set output 'xyz.png'; plot 'odpm_1no1
  29th May 2024:
 		To copy a particular directory excluding a subdirectory from that directory
 			rsync -av --progress sourcefolder /destinationfolder --exclude thefoldertoexclude
-  			Note: that the dir thefoldertoexclude after --exclude option is relative to the sourcefolder, i.e., sourcefolder/thefoldertoexclude
+  			Note: that the dir thefoldertoexclude after --exclude option is relative to the sourcefolder, i.e., 	sourcefolder/thefoldertoexclude
+
+
+07 September 2024
+
+	to remove any package 
+	 run the following
+		sudo dpkg -r package_name
+
+	Note: I faced problem named "dpkg was interrupted" beacuse of context-modules I faced this problem twice once I installed due imagemagic and secondly while upgrading from ubuntu 20.04 LTS to 22.04 LTS. 
+	This issue of dpkg was interrupted can be resolve by running the following the command 'sudo dpkg --configure -a' but this while runnig this command this stcuk in the following line more than 7-8 hrs stating following line 'Pregenerating ConTeXt MarkIV format. This may take time...' Now this can be resolved by two method 
+1. just hit enter while stuck 'Pregenerating ConTeXt MarkIV format. This may take time...' after running the command 'sudo dpkg --configure -a' 
+this will bring to end of succfully completion of the above command.
+2. While stuck with stating line 'Pregenerating ConTeXt MarkIV format. This may take time...' after running the command 'sudo dpkg --configure -a'
+	first type ctr+c
+	then if you get the following response
+	Errors were encountered while procesing:
+		context context-modules texlive-full
+	REmove these packages using dpkg -r
+		sudo dpkg -r context-modules
+		sudo dpkg -r context
+		sudo dpkg -r texlive-full.
+
+		
+
 			
 		
 >>>>>>> 061f82679040aeb33313c3d5a23086dfa7a58105
