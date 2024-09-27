@@ -173,6 +173,16 @@ this will bring to end of succfully completion of the above command.
 		sudo dpkg -r context
 		sudo dpkg -r texlive-full.
 
+27 September 2024
+	List installed packages on the linux system
+
+	dpkg --get-selections > package_list.txt
+
+	to install above listed pakcages on new machine 
+	sudo dpkg --set-selections < package_list.txt
+	sudo apt-get dselect-upgrade
+
+
 		
 
 			
